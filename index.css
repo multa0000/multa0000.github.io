@@ -46,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 2vw;
+        text-decoration: line-through;
 }
 
 a{
@@ -64,9 +65,7 @@ a:active {
     font-family: mono;
     font-size: 2vw;
 }
-#ativo {
-    text-decoration: underline;
-}
+
 #barrapreta {
     width: 8vw;
     margin-left: 2.6vw;
@@ -80,7 +79,7 @@ a:active {
     width: 60%;
     height: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: auto;
     flex-direction: column;
 }
