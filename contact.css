@@ -80,12 +80,13 @@ a:active {
     width: 60%;
     height: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: auto;
     flex-direction: column;
 }
 #text {
-    width: 50%;
+    width: 60%;
+    text-indent: 2vw;
     line-height: 1.4vw;
     font-size: 1.1vw;
 }
@@ -96,14 +97,7 @@ span {
     text-align: right;
         width: 60%;
 }
-#imagem {
-    width: 50%;
-    height: 20vw;
-    background-image: url(img/multa1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-}
+
 #footer {
     position: fixed;
     bottom: 0px;
@@ -115,7 +109,6 @@ span {
     background-repeat: no-repeat;
     height: 5vw;
 }
-
 @media screen and (max-width: 900px) {
 body {
     font-size: 3vw;
@@ -160,7 +153,7 @@ body {
 
     display: flex;
     width: 90%;
-    margin-top: 30%;
+    margin-top: 60%;
     margin-left: auto;
     margin-right: auto;
 
