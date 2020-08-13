@@ -9,12 +9,9 @@ body {
     height: 100%;
     width: 100%;
     color: black;
-    font-size: 1vw;
     margin: 0px;
     display: flex;
     flex-direction: column;
-    line-height: 1vw;
-
 }
 
 @font-face {
@@ -35,17 +32,16 @@ body {
 
 #barra {
     position: fixed;
-    width: 15%;
-    margin-left: 2%;
+    width: 225px;
     text-align: left;
-    margin-top: 1%;
+    margin-left: 20px;
 }
 
 #menu {
-    text-indent: 2.6vw;
+    text-indent: 44px;
     display: flex;
     flex-direction: column;
-    line-height: 2vw;
+    line-height: 26px;
 }
 
 a{
@@ -62,32 +58,33 @@ a:active {
 }
 #titulo {
     font-family: mono;
-    font-size: 2vw;
+    font-size: 36px;
 }
 #desativado {
             text-decoration: line-through;
 }
 #barrapreta {
-    width: 8vw;
-    margin-left: 2.6vw;
-    height: 2vw;
+    width: 70%;
+    margin-left: 20%;
+    height: 40px;
     background-color: black;
 }
 
 #main {
-    margin-left: 20%;
     display: flex;
-    width: 60%;
+    position: relative;
+    margin-left: 250px;
+    width: 700px;
     height: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: 40px;
     margin-bottom: auto;
     flex-direction: column;
 }
 #text {
-    width: 50%;
-    line-height: 1.4vw;
-    font-size: 1.1vw;
+    width: 100%;
+    line-height: 24px;
+    font-size: 22px;
 }
 span {
     font-family: mono;
@@ -97,8 +94,8 @@ span {
         width: 60%;
 }
 #imagem {
-    width: 50%;
-    height: 20vw;
+    width: 100%;
+    height: 40vh;
     background-image: url(img/multa1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
