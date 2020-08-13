@@ -74,13 +74,19 @@ a:active {
     display: flex;
     position: relative;
     margin-left: 250px;
-    width: 700px;
+    width: 600px;
     height: auto;
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: auto;
     flex-direction: column;
 }
+
+#imagem {
+    width: 60%;
+    height: auto;
+}
+
 #text {
     width: 100%;
     line-height: 24px;
@@ -93,14 +99,8 @@ span {
     text-align: right;
         width: 60%;
 }
-#imagem {
-    width: 100%;
-    height: 40vh;
-    background-image: url(img/multa1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-}
+
+
 #footer {
     position: fixed;
     bottom: 0px;
