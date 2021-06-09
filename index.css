@@ -28,8 +28,8 @@ body {
 }
 
 @font-face {
-    font-family: toren;
-    src: url(fonts/toren.otf);
+    font-family: mono;
+    src: url(fonts/mono.otf);
 }
 
 
@@ -62,7 +62,7 @@ a:active {
     color: black;
 }
 #titulo {
-    font-family: toren;
+    font-family: mono;
     font-size: 2vw;
 }
 #desativado {
