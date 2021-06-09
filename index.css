@@ -1,0 +1,196 @@
+html {
+    height: 100%;
+    width: 100%;
+
+}
+body {
+    height: auto;
+    font-family: 'Light';
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 1vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1vw;
+
+}
+
+@font-face {
+    font-family: Light;
+    src: url(fonts/light.TTF);
+}
+
+@font-face {
+    font-family: Italic;
+    src: url(fonts/italic.TTF);
+}
+
+@font-face {
+    font-family: toren;
+    src: url(fonts/toren.otf);
+}
+
+
+#barra {
+    position: fixed;
+    width: 15%;
+    margin-left: 2%;
+    text-align: left;
+    margin-top: 1%;
+}
+
+#menu {
+    text-indent: 2.6vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 2vw;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+#titulo {
+    font-family: toren;
+    font-size: 2vw;
+}
+#desativado {
+            text-decoration: line-through;
+}
+#barrapreta {
+    width: 8vw;
+    margin-left: 2.6vw;
+    height: 2vw;
+    background-color: black;
+}
+
+#main {
+    margin-left: 20%;
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: auto;
+    flex-direction: column;
+}
+#text {
+    width: 50%;
+    line-height: 1.4vw;
+    font-size: 1.1vw;
+}
+span {
+    font-family: mono;
+}
+#botao {
+    text-align: right;
+        width: 60%;
+}
+#imagem {
+    width: 50%;
+    height: 20vw;
+    background-image: url(img/multa1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url(img/footer-02.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 5vw;
+}
+
+@media screen and (max-width: 900px) {
+body {
+    font-size: 3vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    line-height: 3.2vw;
+
+}
+       
+#barra {
+    position: fixed;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+    font-size: 6vw;
+    background-color: white;
+    height: 28vw;
+    top:0;
+}
+#menu {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 0;
+    display: flex;
+    flex-direction: row;
+    line-height: 2vw;
+    text-indent: 2vw;
+    text-align: center;
+    margin-top: 0;
+    z-index: 10;
+}
+   #barrapreta {
+    display: none;
+}
+
+#titulo {
+    font-size: 7vw;
+}
+#main {
+
+    display: flex;
+    width: 90%;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#text {
+    width: 80%;
+    line-height: 5.3vw;
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20%;
+}
+span {
+    font-family: mono;
+}
+#botao {
+    text-align: right;
+        width: 60%;
+}
+#imagem {
+    width: 100%;
+    height: 80vw;
+    background-position: center;
+}
+
+#footer {
+    height: 20vw;
+}
+ 
+}
